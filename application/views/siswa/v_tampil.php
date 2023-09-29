@@ -63,7 +63,7 @@
                                         <td><?= $t['no_hp'] ?></td>
                                         <td>
                                             <a href="<?= site_url('siswa/ubah/' . $t['id_siswa']); ?>" class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a>
-                                            <a href="#" class="btn btn-danger delete" data-id="<?= $t['id_siswa'] ?>" data-nama="<?= $t['nama_siswa'] ?>"><i class="far fa-trash-alt"></i></a>
+                                            <a href="#" class="btn btn-danger delete" data-jenis="siswa" data-id="<?= $t['id_siswa'] ?>" data-nama="<?= $t['nama_siswa'] ?>"><i class="far fa-trash-alt"></i></a>
                                         </td>
                                     </tr>
                                     <?php } ?>
@@ -76,6 +76,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 

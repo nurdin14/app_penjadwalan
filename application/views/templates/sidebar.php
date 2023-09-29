@@ -47,15 +47,15 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?= site_url('mapel/index') ?>" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Data Pengajar</p>
+                                <p>Data Mata Pelajaran</p>
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="<?= site_url('penjadwalan/index') ?>" class="nav-link">
                         <i class="nav-icon fas fa-calendar-alt"></i>
                         <p>
                             Penjadwalan
@@ -63,7 +63,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="<?= site_url('lihat_jadwal/index') ?>" class="nav-link">
                         <i class="nav-icon fas fa-eye"></i>
                         <p>
                             Lihat Jadwal
